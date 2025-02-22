@@ -41,12 +41,24 @@ body {
 	color: rgb(var(--gray-dark));
 	font-size: 20px;
 	line-height: 1.7;
+
 }
+
+#title {
+	text-align: center;
+	max-width: 991px;
+	margin: 0 auto;
+	padding-top: 3em;
+	font-size: 28px;
+
+}
+
 main {
 	width: 720px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+	padding-top: 1em;
 }
 h1,
 h2,
